@@ -22,7 +22,7 @@ $ java -p mods -m com.greetings/com.greetings.Main
 $ jar --create --file=mlib/org.astro@1.0.jar --module-version=1.0 -C mods/org.astro .
 $ jar --create --file=mlib/com.greetings.jar --main-class=com.greetings.Main -C mods/com.greetings .
 ```
-###Exceute .jar
+###Execute .jar
 ```sh
 $ java -p mlib -m com.greetings
 ```
