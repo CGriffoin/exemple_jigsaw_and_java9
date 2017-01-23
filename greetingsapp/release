@@ -1,0 +1,8 @@
+#
+#Sun Jan 22 15:09:30 CET 2017
+OS_NAME="Darwin"
+MODULES="java.base org.astro com.greetings"
+OS_VERSION="11.2"
+OS_ARCH="x86_64"
+JAVA_VERSION="9"
+JAVA_FULL_VERSION="9-ea"
