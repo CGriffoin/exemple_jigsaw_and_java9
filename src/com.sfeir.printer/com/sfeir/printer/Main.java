@@ -1,9 +1,10 @@
 package com.sfeir.printer;
 
-import org.sfeir.model.Jigsaw;
+import com.sfeir.socket.NetworkSocket;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.format("Hello %s %s !%n", Jigsaw.name(), Jigsaw.details());
+        NetworkSocket s = NetworkSocket.open();
+        System.out.println(s.getClass());
     }
 }
