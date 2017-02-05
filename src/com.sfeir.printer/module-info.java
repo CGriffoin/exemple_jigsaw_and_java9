@@ -1,1 +1,3 @@
-module com.sfeir.printer { }
+module com.sfeir.printer {
+    requires org.sfeir.model;
+}
