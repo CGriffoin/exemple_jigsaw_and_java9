@@ -35,6 +35,10 @@ $ jlink --module-path $JAVA_HOME/jmods:mlib --add-modules com.greetings --output
 ```sh
 $ jar --create --file=mlib/integer.jar -C mods/java.lang . 
 ```
+###Compile with patched class
+```sh
+$ javac -Xmodule:java.base -d mods/java.lang src/java.lang/java/lang/Integer.java
+```
 ####Use the patch
 ```sh
 $ java --patch-module java.base=mlib/integer.jar -p mods -m com.sfeir.printer/com.sfeir.printer.Main
