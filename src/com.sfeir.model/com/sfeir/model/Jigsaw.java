@@ -6,6 +6,6 @@ public class Jigsaw {
     }
 
     public static String details() {
-        return "Coucou je suis un détail.";
+        return "I don't wanna play...";
     }
 }
