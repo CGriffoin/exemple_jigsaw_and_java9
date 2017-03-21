@@ -8,10 +8,8 @@ fi
 
 if $2
 then
-#    java --patch-module java.base=mlib/integer.jar -p mods -m com.sfeir.printer/com.sfeir.printer.Main $1
     java --patch-module java.base=mlib/integer.jar -p mods -m printer/printer.com.sfeir.printer.Main $1
 else
-#    java -p mods -m com.sfeir.printer/com.sfeir.printer.Main $1
     java -p mods -m printer/printer.com.sfeir.printer.Main $1
 fi
 stty sane
