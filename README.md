@@ -15,7 +15,7 @@ $ javac -d mods --module-source-path src $(find src -name "*.java")
 ```
 ###To Run the application
 ```sh
-$ java -p mods -m com.greetings/com.greetings.Main
+$ java -p mods -m com.sfeir.printer/com.sfeir.printer.Main
 ```
 ###Packaging
 ```sh
