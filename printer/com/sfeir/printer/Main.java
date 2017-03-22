@@ -1,6 +1,6 @@
-package com.sfeir.printer;
+package printer.com.sfeir.printer;
 
-import org.sfeir.model.Jigsaw;
+import model.org.sfeir.model.Jigsaw;
 
 public class Main {
     public static void main(String[] args) {
