@@ -8,6 +8,6 @@ public class Jigsaw {
         return "Jigsaw";
     }
     public static String details() {
-        return "Hello Ch'SFEIR share !";
+        return "Hello Ch'SFEIR share";
     }
 }

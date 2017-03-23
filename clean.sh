@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# init PATH 
+# init PATH
 source ~/.bash_profile
+clear
 rm -rf mods/*
-echo "mods cleaned."
 rm -rf mlib/*
-echo "mlib cleaned."
 rm -rf dist/*
-echo "dist cleaned."
+printf " --- clean mods, mlib, dist\n"
