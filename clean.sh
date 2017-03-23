@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # init PATH
-source ~/.bash_profile
+export PATH=$PATH:/Users/clementgriffoin/Documents/exemple_jigsaw_and_java9
 clear
 rm -rf mods/*
 rm -rf mlib/*
