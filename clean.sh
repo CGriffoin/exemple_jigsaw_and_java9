@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+. ~/.bash_profile
 rm -rf mods/*
 echo "mods cleaned."
 rm -rf mlib/*
